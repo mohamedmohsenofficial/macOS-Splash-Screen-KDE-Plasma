@@ -70,8 +70,7 @@ rm -rf ~/.local/share/plasma/look-and-feel/macOS-Splash-Screen-KDE-Plasma
 
 ## Tested On
 
-- ✅ Fedora KDE Plasma 42
-- ✅ Fedora KDE Plasma 43
+- ✅ Fedora KDE Plasma 42-43-44
 
 ---
 
