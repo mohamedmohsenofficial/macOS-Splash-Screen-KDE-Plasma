@@ -1,41 +1,80 @@
 # 🍎 macOS Splash Screen - KDE Plasma
 
-A simple macOS-inspired Splash Screen for KDE Plasma.
+A simple macOS-inspired Splash Screen theme for KDE Plasma.
 
-This theme brings the clean and minimal macOS startup experience to KDE Plasma. It was created and tested on Fedora KDE Plasma but should work on any KDE Plasma system.
+This theme brings the clean and minimal macOS startup experience to KDE Plasma. It has been created and tested on Fedora KDE Plasma, but it should work on any Linux distribution running KDE Plasma.
+
+## Preview
+
+![Preview](macOS-Splash-Screen-KDE-Plasma/contents/previews/fullscreenpreview.jpg)
+
+---
 
 ## Installation
 
-### Option 1 (Recommended)
+Clone the repository:
 
-Run the installation script:
+```bash
+git clone https://github.com/mohamedmohsenofficial/macOS-Splash-Screen-KDE-Plasma.git
+```
+
+Enter the theme directory:
+
+```bash
+cd macOS-Splash-Screen-KDE-Plasma/macOS-Splash-Screen-KDE-Plasma
+```
+
+Make the installer executable:
 
 ```bash
 chmod +x install.sh
+```
+
+Run the installer:
+
+```bash
 ./install.sh
 ```
 
-### Option 2 (Manual)
+Open:
 
-Copy the theme to your local KDE themes directory:
+**System Settings → Appearance & Style → Splash Screen**
+
+Select **macOS-Splash-Screen-KDE-Plasma** and click **Apply**.
+
+---
+
+## Manual Installation
 
 ```bash
 mkdir -p ~/.local/share/plasma/look-and-feel
-cp -r MacOS-Splash ~/.local/share/plasma/look-and-feel/
+
+cp -r macOS-Splash-Screen-KDE-Plasma ~/.local/share/plasma/look-and-feel/
 ```
 
 Then open:
 
 **System Settings → Appearance & Style → Splash Screen**
 
-Select **MacOS Splash** and click **Apply**.
+Choose **macOS-Splash-Screen-KDE-Plasma** and click **Apply**.
+
+---
 
 ## Uninstall
 
 ```bash
-rm -rf ~/.local/share/plasma/look-and-feel/MacOS-Splash
+rm -rf ~/.local/share/plasma/look-and-feel/macOS-Splash-Screen-KDE-Plasma
 ```
 
-## Tested on
+---
 
-- ✅ Fedora KDE Plasma 42, 43, 44
+## Tested On
+
+- ✅ Fedora KDE Plasma 42
+- ✅ Fedora KDE Plasma 43
+
+---
+
+## License
+
+MIT License
